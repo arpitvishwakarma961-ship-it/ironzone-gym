@@ -1,6 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+
+/* HERO */
+.gym-hero{
+height:100vh;
+background:url('https://images.unsplash.com/photo-1550345332-09e3ac987658') center/cover no-repeat;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.gym-overlay{
+background:rgba(0,0,0,.7);
+padding:60px;
+text-align:center;
+color:white;
+}
+
+.gym-hero h1{
+font-size:55px;
+}
+
+.gym-hero p{
+font-size:22px;
+margin:20px 0;
+}
+
+/* PRICING */
+.pricing-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.price-card{
+background:white;
+color:black;
+padding:30px;
+width:260px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+transition:.4s;
+}
+
+.price-card:hover{
+transform:translateY(-10px);
+}
+
+.popular{
+background:#ff3c3c;
+color:white;
+transform:scale(1.1);
+}
+
+/* GALLERY */
+.gallery-grid{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+justify-content:center;
+}
+
+.gallery-grid img{
+width:260px;
+border-radius:15px;
+transition:.4s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.08);
+}
+
+</style>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>IronZone Gym — Forge Your Best Self</title>
